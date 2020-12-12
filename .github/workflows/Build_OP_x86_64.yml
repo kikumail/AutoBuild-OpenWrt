@@ -77,6 +77,8 @@ jobs:
       working-directory: ./openwrt
       run: |
          git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/dailybonus
+         git clone https://github.com/lisaac/luci-app-dockerman.git package/dockerman
+         git clone https://github.com/lisaac/luci-lib-docker.git package/lib-docker
     #    git clone https://github.com/xiaorouji/openwrt-package.git package/lienol
     #    git clone "your_github_link" package/"your_folder_name"      
 
